@@ -16,7 +16,7 @@ export default function App() {
         <Route index element={<Aboutme />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="Portfolio" element={<Portfolio />} />
-        </Route>
+      </Route>
       </Routes>
     </BrowserRouter>
   )
