@@ -1,10 +1,10 @@
 import Nav from "./Nav"
 
 const Header = () => {
-    <>
-    <p>header</p>
+    return (<>
+        <p>header</p>
         <Nav />
-    </>
+    </>)
 
 
 }
