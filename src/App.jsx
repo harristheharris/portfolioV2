@@ -4,8 +4,7 @@ import Header from "./components/Header.jsx";
 //import NoPage from "./pages/NoPage";
 import './App.css'
 
-
-export default function App() {
+function App() {
 
   return (
 
@@ -19,4 +18,4 @@ export default function App() {
 }
 
 
-
+export default App;
