@@ -16,6 +16,5 @@ div {
 /* Outlet (content area) */
 .outlet {
   flex-grow: 1;
-  padding: 2rem;
   background-color: #f2f2f2;
 }
