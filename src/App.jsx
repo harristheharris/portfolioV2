@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Footer from "./components/Footer.jsx"
-import Header from "./components/Header.jsx";
+import Footer from "./components/Footer/Footer.jsx"
+import Header from "./components/Header/Header.jsx";
 //import NoPage from "./pages/NoPage";
 import './App.css'
 
@@ -10,8 +10,9 @@ function App() {
 
     <div>
       <Header />
-      <Outlet />
+      <Outlet /> {/*portfolio, contact me, about me*/}
       <Footer />
+      
     </div>
 
   )
